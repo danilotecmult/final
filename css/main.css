@@ -1068,8 +1068,9 @@ figcaption {padding-left: 20px;color: #fff; font-family: "Kaushan Script","Lato"
 
 
 .contenedor-slider {
-  margin: auto;
-  width: 85%;
+  margin: left;
+  margin-left: 2%;
+  width: 75%;
   max-width: 500px;
   position: relative;
   overflow: hidden;
@@ -1126,5 +1127,75 @@ figcaption {padding-left: 20px;color: #fff; font-family: "Kaushan Script","Lato"
 
 .cor{
   background-color: #006330 !important;
+}
+
+.transparente{
+  background-color: transparent
+}
+.texto{
+  text-align: center
+}
+
+.cliente{
+  background-color: transparent
+}
+
+/*************************
+*******enviar CSS*******
+**************************/
+#enviar {
+  text-align: center;
+  background-image: url(../images/enviar.jpg);
+}
+
+#enviar i {
+  font-size: 48px;
+}
+
+#enviar h3 {
+  margin-top: 15px;
+  font-size: 30px;
+  margin-bottom: 7px;
+  color: #fff;
+}
+
+#enviar .slider-overlay {
+  opacity: 0.8;
+}
+/*************************
+*******atendimento CSS*******
+**************************/
+#atendimento {
+  text-align: center;
+  background-image: url(../images/atendimento.jpg);
+}
+
+#atendimento i {
+  font-size: 48px;
+}
+
+#atendimento h3 {
+  margin-top: 15px;
+  font-size: 30px;
+  margin-bottom: 7px;
+  color: #fff;
+}
+
+#atendimento .slider-overlay {
+  opacity: 0.8;
+}
+
+.navlogo{
+  height: 80px;
+}
+
+.margemgl{
+  margin-left: 5%;
+}
+
+.galer {
+  padding: 0px;
+  
+  
 }
 
